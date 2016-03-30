@@ -1,0 +1,123 @@
+/* author:Didi Liang
+   date:29/2/2016
+   Note:This is a stylesheet for homework_2.html,the homework#2 for COMP1950
+ */
+
+
+
+
+/* html rules */
+body {
+	margin:0px;
+	padding:0px;
+	color:black;
+background-color:#FF9393;
+background-image: url("../image/background_2.jpg");
+  font-family:"arial", verdana, sans-serif;}
+
+h2{color:#847171;
+   font-family:"arial", verdana, sans-serif;
+   font-size:24px;}
+
+h3{ font-family:"arial", verdana, sans-serif;
+   font-size:18px;
+   }
+
+nav{padding:0px;
+           margin:0px;}
+section{
+	     margin:80px 70px 0px 70px;
+	     clear:right;
+	     line-height:40px;
+	      text-align: justify;}
+
+figure{float:right;
+         margin:0px 0px 0px 40px;
+         padding-left:10px;
+      }                      
+
+
+header{margin-left:350px;}
+
+footer{ 
+        
+        text-align:center;
+        background-color:#F73838;
+        color:white;
+         margin-top:20px;
+  
+         padding:0px;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #F64E4E;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left:200px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:#f1f1f1;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+
+mark{background-color:#F64E4E;
+     color:black;}
+
+/*id rules */
+#container{position:relative;
+	       background-color:white;
+           min-width:80%;
+           margin:30px 50px 30px 50px;
+           overflow: hidden;
+           }
+
+
+#note{border:dashed 1px black; 
+       margin-right:10px;
+       margin-bottom:20px;
+       padding:10px;
+       width:500px;}
+
+ 
+/*class rules */
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;}
+
+.dropdown-content a {
+    color:#F64E4E;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}            
+
